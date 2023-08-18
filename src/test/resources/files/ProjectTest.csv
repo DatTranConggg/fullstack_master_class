@@ -1,0 +1,17 @@
+﻿#,Project code,Project name,Customer name,Project status,Start date,End date,Practices ,PM,Domain,Short Description,Description,Technologies applied 
+1,ZONA-US-P-Glob-Part-Gafhftt-fuvgsi,"Zonar Systems, Inc.-ECT2 Phase 2 ","Zonar Systems, Inc.",Closed ,01-Dec-21,11-Nov-22,IoT ,Khang Tran Manh Nguyen,Transportation,,,"C#,Java,Golang"
+2,ZONA-US-P-Glob-Part-Gafhftt-Integr,ZONA-US-P-Glob-Part-Gat-Integr,"Zonar Systems, Inc.",On-going,10-Feb-22,01-Jan-23,IoT ,Nam Van Nguyen,Transportation,,,"Python, GCP, k8s, Gitlab CI/CD, Terraform, Datadog"
+3,ZONA-US-P-PCAT SELFxfhtf-SERVCES AP,ZONA-US-P-PCAT SELF-SERVCES AP,"Zonar Systems, Inc.",On-going,01-Apr-22,31-Mar-23,IoT ,Khang Tran Manh Nguyen,Transportation,,,"Angular, GCP, GKE, Pendo, Datadog, Gitlab CICD, Terraform, Cypress"
+4,ZONA-US-P-OEM coxfthxhnso Srvcs-Phs2 ,ZONA-US-P-OEM conso Srvcs-Phs2 ,"Zonar Systems, Inc.",On-going,01-Apr-22,31-Mar-23,IoT ,Huy Nguyen,Transportation,,,"Python, GCP, microservice"
+5,ZONA-US-P-Core API Serv Ph 2,ZONA-US-P-Core API Serv Ph 2,"Zonar Systems, Inc.",On-going,01-Apr-22,31-Mar-23,IoT ,Tan Huynh Mai,Transportation,,," Python, FastAPI, GCP"
+6,ZONA-US-P-Data Serv Cld Uplift-P2,ZONA-US-P-Data Serv Cld Uplift-P2,"Zonar Systems, Inc.",On-going,01-Jan-22,31-Dec-22,IoT ,Khang Tran Manh Nguyen,"Database, Google Cloud",,,"Python, Gitlab CICD, GCP, GKE"
+7,ZONA-US-P-ZONAR OCI 2022-2023,ZONA-US-P-ZONAR OCI 2022-2023,"Zonar Systems, Inc.",On-going,01-Sep-22,31-Aug-23,IoT ,Nhan Thanh Nguyen,Oncall Product,,,"Google Cloud Platform, Python."
+8,"ZONA-US-P-EVIR_NAV-2022_2023 
+","ZONA-US-P-EVIR_NAV-2022_2023 
+","Zonar Systems, Inc.",On-going,01-Sep-22,31-Aug-23,IoT ,Anh Huu Le,Mobile,,,"Android: Java, Kotlin, NFC/QR Code, Unit test, Firebase…"
+9,"ZONA-US-P-ZONAR-ELD-2022-23
+","ZONA-US-P-ZONAR-ELD-2022-23
+","Zonar Systems, Inc.",On-going,01-Sep-22,31-Aug-23,IoT ,Anh Huu Le,Mobile,,,"Android: Java, Kotlin, NFC/QR Code, Unit test, Firebase"
+10,ZONA-US-P-EVIR-2 IOS5 Q4-22/33,ZONA-US-P-EVIR-2 IOS5 Q4-22/33,"Zonar Systems, Inc.",On-going,01-Oct-22,30-Sep-23,IoT ,Tu Anh Doan,Application,,, iOS
+11, ZONA-US-P-COACH DEV P5 2022-23, ZONA-US-P-COACH DEV P5 2022-23,"Zonar Systems, Inc.",On-going,01-Nov-22,31-Oct-23,IoT ,Long Quang Tran,Transportation,,,"Java, Android, AngularJs, Flutter"
+12,ZONA-US-P-EVIR ECT2 2022-2023,ZONA-US-P-EVIR ECT2 2022-2023,"Zonar Systems, Inc.",On-going,12-Jan-22,30/11/2023,IoT ,Khang Tran Manh Nguyen,Transportation,,,"Gitlab CICD, Angular"

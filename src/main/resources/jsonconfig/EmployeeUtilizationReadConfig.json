@@ -1,0 +1,147 @@
+{
+	"mappingRule": {
+		"no": "No.",
+		"hccId": "ID",
+		"name": "Name",
+		"level": "Level",
+		"startDate": "Start date",
+		"location": "Location",
+		"bu": "BU",
+		"coe": "CoE",
+		"billableHours": "Billable hours",
+		"ptoOracle": "Time off",
+		"availableHours": "Available Hours",
+		"billable": "%Billable",
+		"loggedHours": "Logged hours",
+		"oracleStaffedProject": "Oracle staffed Project",
+		"timeSheet": "Timesheet status",
+		"email": "Email"
+	},
+	"style": {
+		"sheetName": "Details",
+		"body": {
+			"font": "Calibri",
+			"border": true,
+			"borderStyle": 9,
+			"backGroundColor": [255, 242, 204],
+			"isBold": false,
+			"isItalic": false,
+			"fontWeight": 11,
+			"fontColor": 0
+		},
+		"header": {
+			"font": "Calibri",
+			"border": true,
+			"borderStyle": 1,
+			"backGroundColor": [255, 217, 102],
+			"isBold": true,
+			"isItalic": false,
+			"fontWeight": 11,
+			"fontColor": 0
+		}
+	},
+	"fileName": "Employee Utilization",
+	"headers": [
+		"No.",
+		"ID",
+		"Name",
+		"Level",
+		"Start date",
+		"Location",
+		"BU",
+		"CoE",
+		"Billable hours",
+		"Time off",
+		"Available Hours",
+		"%Billable",
+		"Logged hours",
+		"Oracle staffed Project",
+		"Timesheet status",
+		"Email"
+	],
+	"configKey": [
+		{
+			"key": "ID",
+			"type": "Integer",
+			"isRequired": true
+		},
+		{
+			"key": "Name",
+			"type": "String",
+			"isRequired": true
+		},
+		{
+			"key": "Level",
+			"type": "String",
+			"isRequired": true
+		},
+		{
+			"key": "Location",
+			"type": "String",
+			"isRequired": true
+		},
+		{
+			"key": "BU",
+			"type": "String",
+			"isRequired": true
+		},
+		{
+			"key": "CoE",
+			"type": "String",
+			"isRequired": true
+		},
+		{
+			"key": "Start date",
+			"type": "Date",
+			"isRequired": true
+		},
+		{
+			"key": "Billable hours",
+			"type": "Integer",
+			"isRequired": true
+		},
+		{
+			"key": "Time off",
+			"type": "Integer",
+			"isRequired": true
+		},
+		{
+			"key": "Available Hours",
+			"type": "Integer",
+			"isRequired": true
+		},
+		{
+			"key": "%Billable",
+			"type": "Double",
+			"isRequired": true
+		},
+		{
+			"key": "Logged hours",
+			"type": "Integer",
+			"isRequired": true
+		},
+		{
+			"key": "Oracle staffed Project",
+			"type": "String",
+			"isRequired": true
+		},
+		{
+			"key": "Timesheet status",
+			"type": "String",
+			"isRequired": false,
+			"backGroundColor": [84,130,53],
+			"fontColor": [255,0,0]
+		},
+		{
+			"key": "Email",
+			"type": "String",
+			"isRequired": true
+		}
+	],
+	"startRow": 3,
+	"startColumn": 1,
+	"cellRow": 0,
+	"cellColumn": 0,
+	"cellInputFormat": "dd MMM uuuu"
+
+}

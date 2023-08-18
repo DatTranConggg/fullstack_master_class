@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+	
+	<changeSet id="1" author="loi">
+		<sqlFile encoding="UTF-8" path="../scripts/config/0001_add_deparment_data.sql" relativeToChangelogFile="true" />
+	</changeSet>
+	
+	<changeSet id="2" author="plot">
+		<sqlFile encoding="UTF-8" path="../scripts/config/0002_add_skill_set_data.sql" relativeToChangelogFile="true" />
+	</changeSet>
+	
+	<changeSet id="3" author="hung">
+		<sqlFile encoding="UTF-8" path="../scripts/config/0003_add_bu_data.sql" relativeToChangelogFile="true" />
+	</changeSet>
+
+	<changeSet id="4" author="thinh">
+		<sqlFile encoding="UTF-8" path="../scripts/config/0004_add_practice_data.sql" relativeToChangelogFile="true" />
+	</changeSet>
+
+	<changeSet id="5" author="thinh">
+		<sqlFile encoding="UTF-8" path="../scripts/config/0005_add_project_data.sql" relativeToChangelogFile="true" />
+	</changeSet>
+	
+</databaseChangeLog>

@@ -1,0 +1,1412 @@
+{
+  "mappingRule": {
+    "id": "ID",
+    "startTime": "Start time",
+    "completionTime": "Completion time",
+    "email": "Email",
+    "name": "Name",
+    "employeeId": "Your Employee ID:",
+    "fullName": "Your Full name:",
+    "currentAddress": "Your current address (only District & City):",
+    "english": "English (Speaking & listening skill)",
+    "japanese": "Japanese (Speaking & listening skill)",
+    "certificate": "Do you have any certificate? Please list out all certificates that you have.",
+    "waterfall": "Waterfall",
+    "agile": "Agile",
+    "manufacturing": "Manufacturing",
+    "semiconductor": "Semiconductor",
+    "transportation": "Transportation",
+    "iotLumada": "IoT Lumada",
+    "energyUtilities": "Energy & Utilities",
+    "retailLogistic": "Retail & Logistic",
+    "automotive": "Automotive",
+    "financeBanking": "Finance & Banking",
+    "insurance": "Insurrance",
+    "healthCare": "Healthcare",
+    "printing": "Printing",
+    "smartSpace": "Smart Space",
+    "other": "Other",
+    "cPlus": "C/C++",
+    "cSharp": "C#",
+    "java": "Java",
+    "golang": "Golang",
+    "kotlin": "Kotlin",
+    "python": "Python",
+    "r": "R",
+    "php": "PHP",
+    "visualBasicDotNET": "Visual Basic.NET",
+    "visualBasic6": "Visual Basic 6",
+    "cssAndHtml": "CSS &HTML5",
+    "javascript": "Javascript",
+    "bootstrapMaterial": "Bootstrap/Material",
+    "jQuery": "JQuery",
+    "angular": "Angular",
+    "angularJs": "AngularJS",
+    "react": "React",
+    "nestJs": "NestJS",
+    "vueJs": "VueJS",
+    "sencha": "Sencha",
+    "reactNative": "React Native",
+    "prism": "Prism",
+    "flutter": "Flutter",
+    "typeScript": "TypeScript",
+    "javaSpringBoot": "Java-Spring Boot",
+    "javaSpringMvc": "Java-Spring MVC",
+    "javaJsp": "Java-JSP",
+    "javaPlayFramework": "Java Play Framework",
+    "dotNetCore": ".NET Core",
+    "vbDotNet": "VB.NET",
+    "aspDotNet": "ASP.NET",
+    "pythonFlask": "Python-Flask",
+    "pythonDjango": "Python-Django",
+    "go": "Go",
+    "kotlinTwo": "Kotlin2",
+    "quarkus": "Quarkus",
+    "micronaut": "Micronaut",
+    "nodeRed": "NodeRED",
+    "nodeJs": "NodeJS",
+    "oraclePlSql": "Oracle-PL/SQL ",
+    "iotWebSocket": "IoT-WebSocket",
+    "iotThinkWorx": "IoT-ThinkWorx",
+    "iotMqtt": "IoT-MQTT",
+    "dotNetWinForm": ".NET Winform",
+    "dotNetWpf": ".NET WPF",
+    "javaSwing": "Java Swing",
+    "javaFx": "JavaFX",
+    "oracleFormReport": "Oracle Form/Report",
+    "webSphereApplicationServer": "Websphere Application Server (WAS)",
+    "jBossWildFly": "JBoss/Wildfly",
+    "iis": "IIS",
+    "tomcat": "Tomcat",
+    "netty": "Netty",
+    "maven": "Maven",
+    "gradle": "Gradle",
+    "oracleDb": "Oracle DB",
+    "postgreSql": "PostgreSQL",
+    "mySql": "MySQL",
+    "mariaDb": "MariaDB",
+    "sqlServer": "SQL Server",
+    "dbTwo": "DB2",
+    "influxDb": "InfluxDB",
+    "prometheus": "Prometheus",
+    "druid": "Druid",
+    "azureTimeSeriesInsight": "Azure Time Series Insight",
+    "awsTimeStream": "AWS Timestream",
+    "mongoDb": "MongoDB",
+    "cassandra": "Cassandra",
+    "couchbase": "Couchbase",
+    "neoFourJ": "Neo4J",
+    "arangoDb": "ArangoDB",
+    "camunda": "Camunda",
+    "wpsSoa": "WPS-SOA",
+    "muleSoft": "Mulesoft",
+    "cqrs": "CQRS",
+    "saga": "Saga",
+    "circuitBreaker": "Circuit Breaker",
+    "kong": "Kong",
+    "awsApiGateway": "AWS API Gateway",
+    "azureApiManagement": "Azure API Management",
+    "tyk": "Tyk",
+    "wsoTwo": "WSO2",
+    "apigee": "Apigee",
+    "keycloak": "Keycloak",
+    "okta": "Okta",
+    "azureAd": "Azure AD",
+    "authZero": "Auth0",
+    "awsIam": "AWS IAM",
+    "apacheSpark": "Apache Spark",
+    "apacheNifi": "Apache Nifi",
+    "rabbitMq": "RabbitMQ",
+    "kafka": "Kafka",
+    "activeMq": "Active MQ",
+    "microsoftBiztalk": "Microsoft Biztalk",
+    "tibcoEms": "Tibco EMS",
+    "redis": "Redis",
+    "memcached": "Memcached",
+    "apacheIgnite": "Apache Ignite",
+    "elasticSearch": "Elasticsearch",
+    "nginx": "NGINX",
+    "haProxy": "HAProxy",
+    "fundamentals": "Fundamentals (OS, scripting, Linux service, etc.)",
+    "cicdTools": "CI/CD Tools (Jenkin, BlackDuck, SonarQube)",
+    "networking": "Networking   (IP, DNS, port tunnel/forward, etc.)",
+    "securityOne": "Security   (Routing, Firewall, SSL/TLS)",
+    "virtualMachine": "Virtual   Machine (VMWare, VSphere, VirtualBox, etc.)",
+    "buildCompose": "Build/Compose",
+    "docker": "Docker",
+    "sonarQube": "SonarQube",
+    "kubernetes": "Kubernetes",
+    "jenkins": "Jenkin",
+    "jira": "Jira",
+    "svn": "SVN",
+    "gitLab": "GitLab",
+    "gitHub": "Github",
+    "bitbucket": "Bitbucket",
+    "azureRepos": "Azure Repos",
+    "awsCodeCommit": "AWS CodeCommit",
+    "tableau": "Tableau",
+    "powerBi": "Power BI",
+    "pentaho": "Pentaho",
+    "qlikView": "QlikView",
+    "googleDataStudio": "Google Data Studio",
+    "ibmCognos": "IBM Cognos",
+    "qlikSense": "Qlik Sense",
+    "aws": "AWS",
+    "uiAutomation": "UI Automation (selenium/ cucumber/ appium/ cypress/ Tricentis Tosca/ Botsina..)",
+    "azure": "Azure",
+    "api": "API (Postman/ SoapUI..)",
+    "performance": "Performance (JMeter/ Loadrunner...)",
+    "gcp": "GCP",
+    "securityTwo": "Security (OWASP ZAP/ BURPSUIT/ WIRESHARK..)",
+    "couldStack": "CouldStack",
+    "openStack": "OpenStack",
+    "localStack": "LocalStack",
+    "pcf": "PCF",
+    "saleForce": "SaleForce",
+    "oci": "OCI",
+    "ansible": "Ansible",
+    "terraform": "Terraform",
+    "adobeFigma": "Adobe Figma",
+    "adobeXd": "Adobe XD",
+    "inVision": "InVision",
+    "sketch": "Sketch",
+    "flinto": "Flinto",
+    "framer": "Framer",
+    "uxPin": "UX Pin",
+    "wireFrameBalsamiq": "Wireframe Balsamiq",
+    "motionDesign": "Motion Design",
+    "adobePhotoshop": "Adobe Photoshop",
+    "adobeIllustrator": "Adobe Illustrator",
+    "adobeExpress": "Adobe Express",
+    "adobeInDesign": "Adobe InDesign",
+    "adobePremierePro": "Adobe Premiere Pro",
+    "adobeAfterEffects": "Adobe After Effects",
+    "adobeAudition": "Adobe Audition",
+    "adobeAnimate": "Adobe Animate",
+    "materialDesign": "Material Design",
+    "appleHumanInterfaceGuidelines": "Apple Human Interface Guidelines",
+    "muiTheme": "MUI Theme",
+    "hitachiNextTheme": "Hitachi NEXT Theme",
+    "w3c": "W3C",
+    "csunAccessibility": "CSUN Accessibility",
+    "uxResearcher": "UX Researcher",
+    "uxWriting": "UX Writing",
+    "angularStyleTheme": "Angular Style Theme",
+    "reactStyleTheme": "React Style Theme",
+    "wpfStyleTheme": "WPF Style Theme",
+    "sassCss": "Sass CSS",
+    "lessCss": "Less CSS",
+    "listOtherSkills": "List other skills which you have knowledge:"
+  },
+  "style": {
+    "sheetName": "",
+    "body": {
+      "font": "Arial",
+      "backGroundColor": [95,155,213],
+      "isBold": true,
+      "isItalic": false,
+      "fontWeight": 11,
+      "fontColor": 9
+
+    },
+    "header": {
+      "font": "Calibri",
+      "backGroundColor": [95,155,213],
+      "isBold": false,
+      "isItalic": false,
+      "fontWeight": 11,
+      "fontColor": 1
+    }
+  },
+  "fileName": "Survey data",
+  "headers": [
+    "ID",
+    "Start time",
+    "Completion time",
+    "Email",
+    "Name",
+    "Your Employee ID:",
+    "Your Full name:",
+    "Your current address (only District & City):",
+    "English (Speaking & listening skill)",
+    "Japanese (Speaking & listening skill)",
+    "Do you have any certificate? Please list out all certificates that you have.",
+    "Waterfall",
+    "Agile",
+    "Manufacturing",
+    "Semiconductor",
+    "Transportation",
+    "IoT Lumada",
+    "Energy & Utilities",
+    "Retail & Logistic",
+    "Automotive",
+    "Finance & Banking",
+    "Insurrance",
+    "Healthcare",
+    "Printing",
+    "Smart Space",
+    "Other",
+    "C/C++",
+    "C#",
+    "Java",
+    "Golang",
+    "Kotlin",
+    "Python",
+    "R",
+    "PHP",
+    "Visual Basic.NET",
+    "Visual Basic 6",
+    "CSS &HTML5",
+    "Javascript",
+    "Bootstrap/Material",
+    "JQuery",
+    "Angular",
+    "AngularJS",
+    "React",
+    "NestJS",
+    "VueJS",
+    "Sencha",
+    "React Native",
+    "Prism",
+    "Flutter",
+    "TypeScript",
+    "Java-Spring Boot",
+    "Java-Spring MVC",
+    "Java-JSP",
+    "Java Play Framework",
+    ".NET Core",
+    "VB.NET",
+    "ASP.NET",
+    "Python-Flask",
+    "Python-Django",
+    "Go",
+    "Kotlin2",
+    "Quarkus",
+    "Micronaut",
+    "NodeRED",
+    "NodeJS",
+    "Oracle-PL/SQL ",
+    "IoT-WebSocket",
+    "IoT-ThinkWorx",
+    "IoT-MQTT",
+    ".NET Winform",
+    ".NET WPF",
+    "Java Swing",
+    "JavaFX",
+    "Oracle Form/Report",
+    "Websphere Application Server (WAS)",
+    "JBoss/Wildfly",
+    "IIS",
+    "Tomcat",
+    "Netty",
+    "Maven",
+    "Gradle",
+    "Oracle DB",
+    "PostgreSQL",
+    "MySQL",
+    "MariaDB",
+    "SQL Server",
+    "DB2",
+    "InfluxDB",
+    "Prometheus",
+    "Druid",
+    "Azure Time Series Insight",
+    "AWS Timestream",
+    "MongoDB",
+    "Cassandra",
+    "Couchbase",
+    "Neo4J",
+    "ArangoDB",
+    "Camunda",
+    "WPS-SOA",
+    "Mulesoft",
+    "CQRS",
+    "Saga",
+    "Circuit Breaker",
+    "Kong",
+    "AWS API Gateway",
+    "Azure API Management",
+    "Tyk",
+    "WSO2",
+    "Apigee",
+    "Keycloak",
+    "Okta",
+    "Azure AD",
+    "Auth0",
+    "AWS IAM",
+    "Apache Spark",
+    "Apache Nifi",
+    "RabbitMQ",
+    "Kafka",
+    "Active MQ",
+    "Microsoft Biztalk",
+    "Tibco EMS",
+    "Redis",
+    "Memcached",
+    "Apache Ignite",
+    "Elasticsearch",
+    "NGINX",
+    "HAProxy",
+    "Fundamentals (OS, scripting, Linux service, etc.)",
+    "CI/CD Tools (Jenkin, BlackDuck, SonarQube)",
+    "Networking   (IP, DNS, port tunnel/forward, etc.)",
+    "Security   (Routing, Firewall, SSL/TLS)",
+    "Virtual   Machine (VMWare, VSphere, VirtualBox, etc.)",
+    "Build/Compose",
+    "Docker",
+    "SonarQube",
+    "Kubernetes",
+    "Jenkin",
+    "Jira",
+    "SVN",
+    "GitLab",
+    "Github",
+    "Bitbucket",
+    "Azure Repos",
+    "AWS CodeCommit",
+    "Tableau",
+    "Power BI",
+    "Pentaho",
+    "QlikView",
+    "Google Data Studio",
+    "IBM Cognos",
+    "Qlik Sense",
+    "AWS",
+    "UI Automation (selenium/ cucumber/ appium/ cypress/ Tricentis Tosca/ Botsina..)",
+    "Azure",
+    "API (Postman/ SoapUI..)",
+    "Performance (JMeter/ Loadrunner...)",
+    "GCP",
+    "Security (OWASP ZAP/ BURPSUIT/ WIRESHARK..)",
+    "CouldStack",
+    "OpenStack",
+    "LocalStack",
+    "PCF",
+    "SaleForce",
+    "OCI",
+    "Ansible",
+    "Terraform",
+    "Adobe Figma",
+    "Adobe XD",
+    "InVision",
+    "Sketch",
+    "Flinto",
+    "Framer",
+    "UX Pin",
+    "Wireframe Balsamiq",
+    "Motion Design",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Express",
+    "Adobe InDesign",
+    "Adobe Premiere Pro",
+    "Adobe After Effects",
+    "Adobe Audition",
+    "Adobe Animate",
+    "Material Design",
+    "Apple Human Interface Guidelines",
+    "MUI Theme",
+    "Hitachi NEXT Theme",
+    "W3C",
+    "CSUN Accessibility",
+    "UX Researcher",
+    "UX Writing",
+    "Angular Style Theme",
+    "React Style Theme",
+    "WPF Style Theme",
+    "Sass CSS",
+    "Less CSS",
+    "List other skills which you have knowledge:"
+  ],
+  "configKey": [
+    {
+      "key": "Start time",
+      "type": "Date",
+      "isRequired": true
+    },
+    {
+      "key": "Completion time",
+      "type": "Date",
+      "isRequired": true
+    },
+    {
+      "key": "Email",
+      "type": "String",
+      "isRequired": false,
+      "validation": "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$"
+    },
+    {
+      "key": "Name",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Your Employee ID:",
+      "type": "String",
+      "isRequired": true
+    },
+    {
+      "key": "Your Full name:",
+      "type": "String",
+      "isRequired": true
+    },
+    {
+      "key": "Your current address (only District & City):",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "English (Speaking & listening skill)",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Japanese (Speaking & listening skill)",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Do you have any certificate? Please list out all certificates that you have.",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Waterfall",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Agile",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Manufacturing",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Semiconductor",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Transportation",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "IoT Lumada",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Energy & Utilities",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Retail & Logistic",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Automotive",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Finance & Banking",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Insurrance",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Healthcare",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Printing",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Smart Space",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "Other",
+      "type": "String",
+      "isRequired": false
+    },
+    {
+      "key": "C/C++",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "C#",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Java",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Golang",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Kotlin",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Python",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "R",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "PHP",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Visual Basic.NET",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Visual Basic 6",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "CSS &HTML5",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Javascript",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Bootstrap/Material",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "JQuery",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Angular",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "AngularJS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "React",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "ReactJS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "NestJS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "VueJS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Sencha",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "React Native",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Prism",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Flutter",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "TypeScript",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Java-Spring Boot",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Java-Spring MVC",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Java-JSP",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Java Play Framework",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": ".NET Core",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "VB.NET",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "ASP.NET",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Python-Flask",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Python-Django",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Go",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Kotlin2",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Quarkus",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Micronaut",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "NodeRED",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "NodeJS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Oracle-PL/SQL ",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "IoT-WebSocket",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "IoT-ThinkWorx",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "IoT-MQTT",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": ".NET Winform",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": ".NET WPF",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Java Swing",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "JavaFX",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Oracle Form/Report",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Websphere Application Server (WAS)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "JBoss/Wildfly",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "IIS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Tomcat",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Netty",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Maven",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Gradle",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Oracle DB",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "PostgreSQL",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "MySQL",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "MariaDB",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "SQL Server",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "DB2",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "InfluxDB",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Prometheus",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Druid",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Azure Time Series Insight",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "AWS Timestream",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "MongoDB",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Cassandra",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Couchbase",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Neo4J",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "ArangoDB",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Camunda",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "WPS-SOA",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Mulesoft",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "CQRS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Saga",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Circuit Breaker",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Kong",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "AWS API Gateway",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Azure API Management",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Tyk",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "WSO2",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Apigee",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Keycloak",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Okta",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Azure AD",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Auth0",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "AWS IAM",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Apache Spark",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Apache Nifi",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "RabbitMQ",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Kafka",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Active MQ",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Microsoft Biztalk",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Tibco EMS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Redis",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Memcached",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Apache Ignite",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Elasticsearch",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "NGINX",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "HAProxy",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Fundamentals (OS, scripting, Linux service, etc.)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "CI/CD Tools (Jenkin, BlackDuck, SonarQube)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Networking   (IP, DNS, port tunnel/forward, etc.)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Security   (Routing, Firewall, SSL/TLS)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Virtual   Machine (VMWare, VSphere, VirtualBox, etc.)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Build/Compose",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Docker",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "SonarQube",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Kubernetes",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Jenkin",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Jira",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "SVN",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "GitLab",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Github",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Bitbucket",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Azure Repos",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "AWS CodeCommit",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Tableau",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Power BI",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Pentaho",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "QlikView",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Google Data Studio",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "IBM Cognos",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Qlik Sense",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "AWS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "UI Automation (selenium/ cucumber/ appium/ cypress/ Tricentis Tosca/ Botsina..)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Azure",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "API (Postman/ SoapUI..)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Performance (JMeter/ Loadrunner...)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Security (OWASP ZAP/ BURPSUIT/ WIRESHARK..)",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "CouldStack",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "OpenStack",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "LocalStack",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "PCF",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "SaleForce",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "OCI",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Ansible",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Terraform",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Figma",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe XD",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "InVision",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Sketch",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Flinto",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Framer",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "UX Pin",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Wireframe Balsamiq",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Motion Design",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Photoshop",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Illustrator",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Express",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe InDesign",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Premiere Pro",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe After Effects",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Audition",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Adobe Animate",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Material Design",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Apple Human Interface Guidelines",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "MUI Theme",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Hitachi NEXT Theme",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "W3C",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "CSUN Accessibility",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "UX Researcher",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "UX Writing",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Angular Style Theme",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "React Style Theme",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "WPF Style Theme",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Sass CSS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "Less CSS",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "GCP",
+      "type": "Integer",
+      "isRequired": false
+    },
+    {
+      "key": "List other skills which you have knowledge:",
+      "type": "String",
+      "isRequired": false
+    }
+  ],
+  "startRow": 0,
+  "startColumn": 1
+
+}
