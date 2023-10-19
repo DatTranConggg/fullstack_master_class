@@ -1,22 +1,14 @@
 package com.example.demo.customer;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
-
 import java.util.List;
 
-@Component // Creat a bean to inject multiple places => Same instance
-// @Primary => default Bean
-public class CustomerService {
+public interface CustomerService {
+    List<Customer> getCustomers();
+    Customer getCustomerById(Integer id);
 
-    private final CustomerRepo customerRepo;
+    void addNewCustomer(Customer customer);
 
-    public CustomerService(@Qualifier("fake") CustomerRepo customerRepo) {
-        this.customerRepo = customerRepo;
-    }
+    void deleteCustomer(Integer id);
 
-    public List<Customer> getCustomer() {
-        return customerRepo.getCustomer();
-    }
+    void updateCustomer(Integer id, String name, String email, Integer age);
 }
