@@ -27,6 +27,10 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public void addNewCustomer(Customer customer) {
+            String email = customer.getEmail();
+            if(customerRepository.existsCustomerByEmail(email)) {
+                throw new IllegalStateException("Email taken");
+            }
             customerRepository.save(customer);
     }
 
