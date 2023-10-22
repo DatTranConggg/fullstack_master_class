@@ -3,7 +3,6 @@ package com.example.journey;
 
 import com.example.demo.DemoApplication;
 import com.example.demo.customer.Customer;
-import com.example.demo.customer.CustomerController;
 import com.github.javafaker.Faker;
 import com.github.javafaker.Name;
 import org.apache.commons.lang3.RandomUtils;
@@ -17,7 +16,7 @@ import reactor.core.publisher.Mono;
 import java.util.UUID;
 
 @SpringBootTest(classes = DemoApplication.class,webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class CustomerIntegrationTest {
+public class CustomerIT {
 
     @Autowired
     private WebTestClient webTestClient;
