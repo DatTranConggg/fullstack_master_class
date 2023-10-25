@@ -1,0 +1,27 @@
+{
+  "AWSEBDockerrunVersion": "2",
+  "containerDefinitions": [
+    {
+      "name": "trancongdat-api",
+      "image": "trancongdat/trancongdat-api:latest",
+      "memory": 512,
+      "cpu": 256,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 80
+        }
+      ],
+      "environment": [
+        {
+          "name": "SPRING_DATASOURCE_URL",
+          "value": "jdbc:postgresql://db:5432/customer"
+        },
+        {
+          "name": "ANOTHER_VARIABLE",
+          "value": "another-value"
+        }
+      ]
+    }
+  ]}
