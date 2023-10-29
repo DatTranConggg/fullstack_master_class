@@ -1,16 +1,22 @@
 package com.example.demo.customer;
 
+import com.example.demo.jwt.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping (path = "api/v1/customers")
+@RequestMapping("api/v1/customers")
 public class CustomerController {
 
     @Autowired
     private CustomerServiceImpl customerServiceImpl;
+
+    @Autowired
+    private JWTUtil jwtUtil;
 
 
     @GetMapping
@@ -30,8 +36,12 @@ public class CustomerController {
     }
 
     @PostMapping
-    public void addNewCustomer(@RequestBody Customer customer) {
+    public ResponseEntity<?> addNewCustomer(@RequestBody Customer customer) {
         customerServiceImpl.addNewCustomer(customer);
+        String token = jwtUtil.issueToken("ss@gmail.com", "ROLE_USER");
+        return ResponseEntity.ok()
+                .header(HttpHeaders.AUTHORIZATION, token)
+                .build();
     }
 
     @DeleteMapping("/{id}")
