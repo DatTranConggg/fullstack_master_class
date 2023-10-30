@@ -1,17 +1,21 @@
 package com.example.demo.customer;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Optional;
 
 @Component // Creat a bean to inject multiple places => Same instance
 // @Primary => default Bean
 public class CustomerServiceImpl implements CustomerService {
 
         private final CustomerRepository customerRepository;
+        private final PasswordEncoder passwordEncoder;
 
-        public CustomerServiceImpl(CustomerRepository customerRepository) {
+        public CustomerServiceImpl(CustomerRepository customerRepository, PasswordEncoder passwordEncoder) {
             this.customerRepository = customerRepository;
+            this.passwordEncoder = passwordEncoder;
         }
 
     @Override
@@ -31,6 +35,7 @@ public class CustomerServiceImpl implements CustomerService {
             if(customerRepository.existsCustomerByEmail(email)) {
                 throw new IllegalStateException("Email taken");
             }
+            customer.setPassword(passwordEncoder.encode(customer.getPassword()));
             customerRepository.save(customer);
     }
 
@@ -55,5 +60,10 @@ public class CustomerServiceImpl implements CustomerService {
                 customer.setAge(age);
             }
             customerRepository.save(customer);
+    }
+
+    @Override
+    public Optional<Customer> selectCustomerByEmail(String email) {
+        return this.customerRepository.findCustomerByEmail(email);
     }
 }

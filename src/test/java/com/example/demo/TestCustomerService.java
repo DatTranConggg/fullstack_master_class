@@ -26,7 +26,7 @@ public class TestCustomerService {
 
     @BeforeEach
     void setUp() {
-        underTest = new CustomerServiceImpl(customerRepository);
+        underTest = new CustomerServiceImpl(customerRepository, passwordEncoder);
     }
 
     @Test

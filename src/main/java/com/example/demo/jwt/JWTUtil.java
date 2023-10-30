@@ -1,5 +1,6 @@
 package com.example.demo.jwt;
 
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
@@ -38,6 +39,19 @@ public class JWTUtil {
                 )
                 .signWith(getSigningKet(), SignatureAlgorithm.HS256)
                 .compact();
+    }
+
+    private Claims getClaims(String token) {
+         return Jwts
+                .parserBuilder()
+                .setSigningKey(getSigningKet())
+                .build()
+                .parseClaimsJws(token)
+                .getBody();
+    }
+
+    public String getSubject(String token) {
+        return this.getClaims(token).getSubject();
     }
 
     private Key getSigningKet() {
